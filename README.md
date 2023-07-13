@@ -1,59 +1,31 @@
 #KANBAN BOARD
-#Description
+#Description-
 A Kanban board is a visual project management tool that helps teams visualize and track their work. It is typically made up of a physical or digital board that is divided into columns, each of which represents a stage in the team's workflow. The columns are usually labeled with categories like "To Do", "In Progress", and "Done".
 
 The Kanban board is used to track work items as they move through each stage of the workflow. Each work item is represented by a card that is placed on the board, and team members can move the cards from one column to another as they work on them. This helps the team to see at a glance which tasks are in progress, which tasks are waiting, and which tasks have been completed.
 
 Kanban boards are often used in agile software development, but they can be used in any team or project that involves workflow management. They are particularly useful for teams that want to visualize their work, identify bottlenecks, and continuously improve their processes.
 
-#Features
+#Features - 
 Create and manage tasks using a drag-and-drop interface
 View tasks in a Kanban-style board with columns for "To Do", "In Progress", and "Done"
 Edit and delete tasks as needed
 Assign tasks to team members
 View detailed information about each task, including its due date, priority, and description
 
-#Tech Stack
-ReactJS
-Material UI
-React Icons
-React router
+#Tech Stack - 
+ReactJS,
+Material UI,
+React Icons,
+React router,
 board = [ list : {} ]
 
-list = { list_id:"random id", list_title:"todo/in-progress/done", list_createdAt: "current date and time", card: [ { id: "id", createdAt: "current date and time", title:"task title", description:"task description" } ] }
-
-list_id:[{ label: "Math.random()", type: "number", default: "null" }]
-
-list_title:[{ label: "todo/in-progress/done", type: "String", default: "" }]
-
-card :{ label: "card", type: "array", }
-
-#Installation
+#Installation - 
 To install and run the application locally, follow these steps:
 
-Clone this repository to your local machine
+Clone this repository to your local machine - 
 Run npm install to install all dependencies
 Run npm start to start the development server
 Open http://localhost:3000/ in your browser to view the application
 Deployment Site link
 Open https://kanban-board-vnoq.vercel.app/ in your browser to view the application
-
-Data Structure
-List =[
-    {
-        id: 'uuidv4',
-        title: 'Board title',
-        Cards: [
-            id: '22r0h9i444t'
-            title: 'Card Title,
-            tasks: [
-                {
-                    id: 'uuidv4',
-                    title: 'Title 1'
-                }
-            ],
-            desc: 'Description',
-            date: new Date()
-        ]
-    }
-]
